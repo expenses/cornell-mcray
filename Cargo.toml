@@ -10,8 +10,8 @@ edition = "2021"
 anyhow = "1.0"
 dolly = "0.1.3"
 fastrand = "1.4"
-kajiya = { path = "../kajiya/crates/lib/kajiya" }
-kajiya-simple = { path = "../kajiya/crates/lib/kajiya-simple" }
+kajiya = { git = "https://github.com/expenses/kajiya/", rev = "0ceb4fe21a162414f8b67b370b7b9c3edc56a1aa", default-features = false }
+kajiya-simple = { git = "https://github.com/expenses/kajiya/", rev = "0ceb4fe21a162414f8b67b370b7b9c3edc56a1aa", default-features = false }
 macaw = "0.15.0"
 physx = { git = "https://github.com/EmbarkStudios/physx-rs.git", rev = "b6146ef" }
 physx-sys = { git = "https://github.com/EmbarkStudios/physx-rs.git", rev = "b6146ef" }
